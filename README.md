@@ -1,17 +1,67 @@
-# bloc_notes
+# TP Dev Mobile - Partie 1
 
-A new Flutter project.
+A Flutter mobile application.
 
-## Getting Started
+## Prerequisites
 
-This project is a starting point for a Flutter application.
+Make sure you have the following installed before getting started:
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (>= 3.0.0)
+- [Dart SDK](https://dart.dev/get-dart) (included with Flutter)
+- [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/) with Flutter extension
+- An emulator or a physical device connected
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Mahfoud24087/TP_DEV_MOBILE_PARTIE1.git
+cd TP_DEV_MOBILE_PARTIE1
+```
+
+### 2. Install dependencies
+
+```bash
+flutter pub get
+```
+
+### 3. Check your environment
+
+```bash
+flutter doctor
+```
+
+> Make sure all required checks pass before running the app.
+
+## Run the app
+
+### On an emulator or connected device
+
+```bash
+flutter run
+```
+
+### On a specific device (if multiple are connected)
+
+```bash
+flutter devices          # list available devices
+flutter run -d <device_id>
+```
+
+### Build APK (Android)
+
+```bash
+flutter build apk
+```
+
+## Project Structure
+
+```
+lib/
+└── main.dart       # Entry point
+```
+
+## License
+
+This project is for educational purposes.
